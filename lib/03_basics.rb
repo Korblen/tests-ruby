@@ -10,16 +10,16 @@ def who_is_bigger(a, b, c)
     end
   end
   
-  def reverse_upcase_noLTA(str)
-    reversed = str.reverse
+  def reverse_upcase_noLTA(a)
+    reversed = a.reverse
     upcased = reversed.upcase
     return upcased.delete('LTA')
   end
   
-  def array_42(arr)
-    arr.include?(42)
+  def array_42(a)
+    a.include?(42)
   end
   
-  def magic_array(arr)
-    arr.flatten.sort.map { |x| x * 2 }.reject { |x| x % 3 == 0 }.uniq.sort
+  def magic_array(a)
+    a.flatten.sort.map { |x| x * 2 }.reject { |x| x % 3 == 0 }.uniq.sort
   end
