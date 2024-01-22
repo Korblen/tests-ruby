@@ -1,4 +1,4 @@
-def ftoc(fahrenheit)
+def ftoc(deg)
     (deg - 32) * 5.0 / 9.0
 end
 
